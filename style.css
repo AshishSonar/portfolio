@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 0px;
+}
+
+header {
+  padding: 50px;
+  background-color: #111111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  color: #fff;
+}
+
+.menu-item {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hero {
+  padding: 0px 50px;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+}
+
+.hero-image img {
+  height: 600px;
+  margin-top: -100px;
+}
+
+.hero-content {
+  color: #fff;
+}
+
+.hero-content h5 {
+  color: #ff3343;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.hero-content button {
+  background-color: #ff3343;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* feature box */
+
+.boxes {
+  padding: 50px;
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  padding: 35px;
+  background-color: #1e1e1e;
+  margin: 10px;
+  color: #fff;
+}
+
+.box img {
+  height: 70px;
+}
+
+.box h3 {
+  font-size: 22px;
+  padding: 10px 0px;
+}
+
+.box p {
+  font-size: 18px;
+}
+
+.box button {
+  background: transparent;
+  border: none;
+  color: #ff3343;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.box button img {
+  height: 15px;
+}
+
+.box-2 {
+  background-color: #ff3343;
+}
+
+.box-2 button {
+  color: #fff;
+}
+
+.counter {
+  padding: 50px;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+}
+
+.main-counter {
+  width: 30%;
+  text-align: center;
+}
+
+.main-counter h1 {
+  font-size: 120px;
+  font-weight: 900;
+  color: #ff3343;
+}
+
+.main-counter h5 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.counters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+}
+
+.count {
+  padding: 30px 50px;
+  background-color: #1e1e1e;
+  margin: 10px;
+  text-align: center;
+}
+
+.count h1 {
+  color: #ff3343;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.count h5 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* featured-projects */
+
+.featured-projects {
+  padding: 40px 50px;
+  background-color: #111111;
+}
+
+.top-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tf-title {
+  width: 50%;
+  color: #fff;
+}
+
+.tf-title h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.tf-title p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tf-btn button{
+    background-color: #ff3343;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+.project{
+    padding-bottom: 30px;
+}
+
+.project img{
+    height: 300px;
+    width: 550px;
+    padding: 70px 20px;
+    background-color: #1E1E1E;
+}
+
+.project h1{
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+.project button{
+    background: transparent;
+    border: none;
+    color: #ff3343;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.project button img{
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+    margin-left: 10px;
+    background: none;
+}
+
+/* contact */
+
+.contact{
+    padding: 0px 50px;
+    background-color: #111111;
+}
+
+.contact-content{
+  background-color: #1e1e1e; 
+  padding: 70px 50px;
+  color: #fff; 
+  display: flex;
+  align-items: center;
+}
+
+.contact-content button{
+    background-color: #ff3343;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+.contact-content-sub h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-content-sub p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* footer */
+
+.footer-nav{
+    background-color: #111111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer-nav h5{
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-connnect{
+    background-color: #1E1E1E;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 50%;
+}
+
+
+.footer-social{
+    display: flex;
+}
+
+.footer-social img{
+    height: 25px;
+    padding-left: 20px;
+}
