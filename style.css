@@ -316,6 +316,96 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+}
+
+.menu-items {
+ 
+}
+
+.menu-item{
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.hero {
+  flex-direction: column-reverse;
+}
+
+.hero-image img {
+  margin-top: 0px;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.hero-content p {
+  padding-top: 20px;
+}
+
+.boxes {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.counter {
+  flex-direction: column;
+}
+
+.main-counter {
+  width: 100%;
+}
+
+.counters {
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.top-projects {
+  flex-direction: column;
+  align-items: center;
+}
+
+.tf-title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.featured-projects{
+  padding: 30px 30px;
+}
+
+.project-list {
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.project img {
+  height: 200px;
+  width: 350px;
+  padding: 70px 20px;
+  background-color: #1e1e1e;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-content {
+  flex-direction: column;
+}
+
+.contact-content button {
+  margin-top: 20px;
+}
+
+.contact-content-sub {
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 480px) {
