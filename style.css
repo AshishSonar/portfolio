@@ -5,6 +5,10 @@
   margin: 0px 0px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 header {
   padding: 50px;
   background-color: #111111;
